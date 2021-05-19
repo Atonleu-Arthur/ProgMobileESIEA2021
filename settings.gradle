@@ -1,2 +1,3 @@
-rootProject.name='Global Pharma'
 include ':app'
+rootProject.name='Global Pharma'
+include ':app:gestionpharmaciesgarde'

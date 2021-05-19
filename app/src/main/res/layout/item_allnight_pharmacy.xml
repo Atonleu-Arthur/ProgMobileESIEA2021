@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/placeName2"
+            android:layout_width="134dp"
+            android:layout_height="31dp"
+              android:background="@color/colorShimme"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Géolalisée"
+            android:textColor="@color/vertaccent"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="363dp"
+            android:layout_height="131dp"
+            android:background="@drawable/radius2"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="7dp"
+
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/indicateMaps"
+                android:layout_width="98dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="258dp"
+                android:layout_marginLeft="258dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="65dp"
+                android:gravity="end"
+                android:text="Géolalisée"
+                android:textAlignment="textEnd"
+                android:textColor="@color/vertaccent"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <TextView
+                android:id="@+id/Vicinity"
+                android:layout_width="245dp"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="105dp"
+                android:layout_marginRight="105dp"
+                android:layout_marginBottom="35dp"
+                android:gravity="center_horizontal"
+                android:text="Douala"
+                android:textAlignment="center"
+                android:textColor="#8E8B8B"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <TextView
+                android:id="@+id/placeName"
+                android:layout_width="315dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="88dp"
+                android:text="Pharmacie de Douala"
+                android:textAlignment="center"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <Button
+                android:id="@+id/btnPharmacie2"
+                android:layout_width="103dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="98dp"
+                android:layout_marginEnd="211dp"
+                android:layout_marginRight="211dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/icons8_route_100px"
+                android:gravity="center_vertical"
+                android:text="Direction"
+                android:textAlignment="center"
+                android:textColor="@color/blanc"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/BtnCallPharmacy"
+                android:layout_width="96dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="240dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="98dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginRight="27dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius2"
+                android:drawableLeft="@drawable/icons8_phone_100px_1"
+                android:gravity="center_vertical"
+
+                android:text="Appeler"
+                android:textAlignment="center"
+                android:textColor="@color/textHintColor"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
