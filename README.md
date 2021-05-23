@@ -16,8 +16,8 @@ Application mobile de géolocalisation de phamarcies de gardes
 <li>MVC</li>
 
 <h5><strong>SpalshScreen</strong></h5>
-<a href="Images/6.PNG"><img src="Images/6.PNG" height="50%" width="50%"" /> </a>
+<a href="Images/6.PNG"><img src="Images/6.PNG" height="352" width="470" /> </a>
 <h5>Page de connexion</h5>
-<a href="Images/7.PNG"><img src="Images/7.PNG" height="50%" width="50%" /> </a>
+<a href="Images/7.PNG"><img src="Images/7.PNG" height="352" width="470" /> </a>
 
 
