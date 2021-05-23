@@ -1,7 +1,7 @@
 # ProgMobileESIEA2021
 Programmation mobile
 <h3>Application mobile de géolocalisation de phamarcies de garde</h3>
-<h4>NB: Veillez consulter le fichier indentifiant.txt, pour recuperer les identifiants de connexion</h4>
+<h4>NB: Veillez consulter le fichier identifiant.txt, pour recuperer les identifiants de connexion</h4>
 <br>
 <ul> <strong>Fonctionnalités intégrée</strong>s</ul>
 <li>Géolocalisation de pharmacies de gardes en fonction d'une ville</li>
