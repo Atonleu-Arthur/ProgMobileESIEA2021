@@ -16,8 +16,8 @@ Architecture utilisée
 -MVC
 
 SpalshScreen
-<a href="Images/6.PNG"><img src="Images/6.PNG" with="15" /> <a>
+<a href="Images/6.PNG"><img src="Images/6.PNG" with="15" /> </a>
 Page de connexion
-<a href="Images/7.PNG"><img src="Images/7.PNG" with="15" /> <a>
+<a href="Images/7.PNG"><img src="Images/7.PNG" with="15" /> </a>
 
 
