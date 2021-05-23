@@ -1,6 +1,6 @@
 # ProgMobileESIEA2021
 Programmation mobile
-<h3>Application mobile de géolocalisation de phamarcies de gardes</h3>
+<h3>Application mobile de géolocalisation de phamarcies de garde</h3>
 <h4>NB: Veillez consulter le fichier indentifiant.txt, pour recuperer les identifiants de connexion</h4>
 <br>
 <ul> <strong>Fonctionnalités intégrée</strong>s</ul>
