@@ -2,18 +2,18 @@
 Programmation mobile
 Application mobile de géolocalisation de phamarcies de gardes
 
-Fonctionnalités intégrées
--Géolocalisation de pharmacies de gardes en fonction d'une ville
--Consultations des actualités santés 
--Authentification Firebase
+<ul>Fonctionnalités intégrées</ul>
+<li>Géolocalisation de pharmacies de gardes en fonction d'une ville</li>
+<li>Consultations des actualités santés </li>
+<li>Authentification Firebase</li>
 
-Stockage de données
--Base de données : Firebase
--SharedPreferences
+<ul>Stockage de données</ul>
+<li>Base de données : Firebase</li>
+<li>SharedPreferences</li>
 
-Architecture utilisée
--Singleton
--MVC
+<ul>Architecture utilisée</ul>
+<li>Singleton</li>
+<li>MVC</li>
 
 <h5>SpalshScreen</h5>
 <a href="Images/6.PNG"><img src="Images/6.PNG" with="auto" /> </a>
