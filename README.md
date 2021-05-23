@@ -15,9 +15,9 @@ Architecture utilisée
 -Singleton
 -MVC
 
-SpalshScreen
+<h5>SpalshScreen</h5>
 <a href="Images/6.PNG"><img src="Images/6.PNG" with="auto" /> </a>
-Page de connexion
+<h5>Page de connexion</h5>
 <a href="Images/7.PNG"><img src="Images/7.PNG" with="auto" /> </a>
 
 
