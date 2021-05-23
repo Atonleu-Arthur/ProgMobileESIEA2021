@@ -25,5 +25,8 @@ Programmation mobile
 <h5>Page de détail d'une actualité</h5>
 <a href="Images/4.PNG"><img src="Images/4.PNG" height="700" width="auto" /> </a>
 <h5>Pages de géolocalisation</h5>
-<a href="Images/8.PNG"><img src="Images/8.PNG" height="700" width="auto" /> </a>
+<div>
+  <a href="Images/8.PNG"><img src="Images/8.PNG" height="700" width="auto" /> </a>
 <a href="Images/2.PNG"><img src="Images/2.PNG" height="700" width="auto" /> </a>
+  </div>
+
