@@ -28,5 +28,8 @@ Programmation mobile
 <div>
   <a href="Images/8.PNG"><img src="Images/8.PNG" height="700" width="auto" /> </a>
 <a href="Images/2.PNG"><img src="Images/2.PNG" height="700" width="auto" /> </a>
+  <a href="Images/1.PNG"><img src="Images/1.PNG" height="700" width="auto" /> </a>
   </div>
+  <h5><strong>Profil</strong></h5>
+<a href="Images/9.PNG"><img src="Images/9.PNG" height="700" width="auto" /> </a>
 
