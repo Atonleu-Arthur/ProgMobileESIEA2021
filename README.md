@@ -17,7 +17,7 @@ Architecture utilisée
 
 SpalshScreen
 
-<a href="Images/6.PNG"><img src="Images/6.PNG" with="200"/> <a>
+<a href="Images/6.PNG"><img src="Images/6.PNG" with="100"/> <a>
 
 
 
