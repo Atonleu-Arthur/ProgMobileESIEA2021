@@ -7,11 +7,11 @@ Programmation mobile
 <li>Géolocalisation de pharmacies de gardes en fonction d'une ville</li>
 <li>Consultations des actualités santés </li>
 <li>Authentification Firebase</li>
-
+<br>
 <ul><strong>Stockage de données</strong></ul>
 <li>Base de données : Firebase</li>
 <li>SharedPreferences</li>
-
+<br>
 <ul><strong>Architecture utilisée</strong></ul>
 <li>Singleton</li>
 <li>MVC</li>
@@ -20,5 +20,9 @@ Programmation mobile
 <a href="Images/6.PNG"><img src="Images/6.PNG" height="700" width="auto" /> </a>
 <h5>Page de connexion</h5>
 <a href="Images/7.PNG"><img src="Images/7.PNG" height="700" width="auto" /> </a>
-
-
+<h5>Page d'acueil</h5>
+<a href="Images/3.PNG"><img src="Images/3.PNG" height="700" width="auto" /> </a>
+<h5>Page de détail d'une actualité</h5>
+<a href="Images/4.PNG"><img src="Images/4.PNG" height="700" width="auto" /> </a>
+<h5>Page de connexion</h5>
+<a href="Images/7.PNG"><img src="Images/7.PNG" height="700" width="auto" /> </a>
