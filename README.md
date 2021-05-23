@@ -15,5 +15,9 @@ Architecture utilisée
 -Singleton
 -MVC
 
+SpalshScreen
+
+<a href="Images/6.PNG"><img src="Images/6.PNG" with="200"/> <a>
+
 
 
