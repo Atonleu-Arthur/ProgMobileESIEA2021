@@ -11,7 +11,8 @@
     <com.facebook.shimmer.ShimmerFrameLayout
         android:id="@+id/shimmerlayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
         <TextView
             android:id="@+id/placeName2"
             android:layout_width="134dp"
@@ -107,13 +108,14 @@
                 android:layout_marginEnd="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginBottom="88dp"
-                android:text="Pharmacie de Douala"
+                android:text="Pharmacie de Paris"
                 android:textAlignment="center"
                 android:textColor="@color/textcolor"
                 android:textSize="16sp"
                 android:textStyle="normal"
                 tools:layout_editor_absoluteX="114dp"
-                tools:layout_editor_absoluteY="78dp" />
+                tools:layout_editor_absoluteY="78dp"
+                android:gravity="center_horizontal" />
 
             <Button
                 android:id="@+id/btnPharmacie2"
@@ -137,7 +139,8 @@
                 android:text="Direction"
                 android:textAlignment="center"
                 android:textColor="@color/blanc"
-                android:textSize="12dp" />
+                android:textSize="12dp"
+                tools:ignore="RtlCompat" />
 
             <Button
                 android:id="@+id/BtnCallPharmacy"
@@ -162,7 +165,8 @@
                 android:text="Appeler"
                 android:textAlignment="center"
                 android:textColor="@color/textHintColor"
-                android:textSize="10dp" />
+                android:textSize="10dp"
+                tools:ignore="RtlCompat" />
 
         </RelativeLayout>
     </com.facebook.shimmer.ShimmerFrameLayout>

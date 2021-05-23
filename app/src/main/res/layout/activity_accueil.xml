@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_container"
     android:background="@color/beige"
-    tools:context=".Views.Accueil">
+    tools:context=".presentation.Views.Accueil">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationMenuGlobalPharma"
