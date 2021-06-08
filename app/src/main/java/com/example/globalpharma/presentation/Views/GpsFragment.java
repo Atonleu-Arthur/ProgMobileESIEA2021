@@ -28,12 +28,12 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.globalpharma.presentation.Controller.Adapter.allNightAdapter;
 import com.example.globalpharma.Maps.PolylineData;
+import com.example.globalpharma.R;
+import com.example.globalpharma.presentation.Controller.Adapter.allNightAdapter;
 import com.example.globalpharma.presentation.Model.ClusterMarker;
 import com.example.globalpharma.presentation.Model.Pharmacy_Location;
 import com.example.globalpharma.presentation.Model.UserLocation;
-import com.example.globalpharma.R;
 import com.example.globalpharma.util.MyClusterManagerRenderer;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -53,8 +53,6 @@ import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.GeoPoint;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
@@ -174,8 +172,6 @@ public class GpsFragment extends Fragment implements OnMapReadyCallback,
                         mUserLocation.setTimestamp(null);
 
                     }
-                    saveUserLocation();
-                    //setCameraView(mUserLocation);
                 }
             });
 
@@ -199,22 +195,7 @@ public class GpsFragment extends Fragment implements OnMapReadyCallback,
 
     private void saveUserLocation() {
 
-        if (mUserLocation != null) {
-            DocumentReference locationRef = mDb
-                    .collection("User_Location")
-                    .document(FirebaseAuth.getInstance().getUid());
 
-            locationRef.set(mUserLocation).addOnCompleteListener(new OnCompleteListener<Void>() {
-                @Override
-                public void onComplete(@NonNull Task<Void> task) {
-                    if (task.isSuccessful()) {
-                        Log.d(TAG, "saveUserLocation: \ninserted user location into database." +
-                                "\n latitude: " + mUserLocation.getGeo_point().getLatitude() +
-                                "\n longitude: " + mUserLocation.getGeo_point().getLongitude());
-                    }
-                }
-            });
-        }
     }
 
     private void setCameraView(Pharmacy_Location mPharmacy) {
