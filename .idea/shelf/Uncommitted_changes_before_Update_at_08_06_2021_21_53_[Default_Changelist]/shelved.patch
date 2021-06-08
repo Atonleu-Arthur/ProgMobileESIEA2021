@@ -1,0 +1,19 @@
+Index: app/myapplication/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.myapplication;\r\n\r\nimport android.content.Context;\r\n\r\nimport androidx.test.platform.app.InstrumentationRegistry;\r\nimport androidx.test.ext.junit.runners.AndroidJUnit4;\r\n\r\nimport org.junit.Test;\r\nimport org.junit.runner.RunWith;\r\n\r\nimport static org.junit.Assert.*;\r\n\r\n/**\r\n * Instrumented test, which will execute on an Android device.\r\n *\r\n * @see <a href=\"http://d.android.com/tools/testing\">Testing documentation</a>\r\n */\r\n@RunWith(AndroidJUnit4.class)\r\npublic class ExampleInstrumentedTest {\r\n    @Test\r\n    public void useAppContext() {\r\n        // Context of the app under test.\r\n        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();\r\n\r\n        assertEquals(\"com.example.myapplication\", appContext.getPackageName());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/myapplication/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java	(revision 8ece6d0ab0aa98c3c7c820078ef3872492a1d207)
++++ app/myapplication/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java	(date 1623181895034)
+@@ -2,8 +2,8 @@
+ 
+ import android.content.Context;
+ 
+-import androidx.test.platform.app.InstrumentationRegistry;
+ import androidx.test.ext.junit.runners.AndroidJUnit4;
++import androidx.test.platform.app.InstrumentationRegistry;
+ 
+ import org.junit.Test;
+ import org.junit.runner.RunWith;
