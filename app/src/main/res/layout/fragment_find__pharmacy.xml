@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+
+    tools:context=".presentation.Views.Pharmacy">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperc"
+        android:layout_width="369dp"
+        android:layout_height="616dp"
+        android:layout_marginTop="68dp"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_new_medication"
+        tools:ignore="MissingConstraints">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcallnightPharmacy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_allnight_pharmacy" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/btnAllnihtPharmacy"
+        android:layout_width="190dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="50dp"
+
+        android:background="@drawable/radiusvisualiserlaliste"
+        android:text="Afficher surla carte"
+         android:drawableStart="@drawable/icons8_map_100px"
+        android:textColor="@color/textcolor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/header_new_medication"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/radiusblanc2"
+        android:clickable="true"
+        android:text="Pharmacies de garde"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#575555"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/btn_retour_pharmacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:src="?attr/homeAsUpIndicator"
+        app:layout_constraintBottom_toBottomOf="@+id/header_new_medication"
+        app:layout_constraintEnd_toEndOf="@+id/header_new_medication"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="@+id/header_new_medication"
+        app:layout_constraintTop_toTopOf="@+id/header_new_medication" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="256dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="Pharmacie de garde du lundi 23 mai au samedi 07Juin "
+        app:layout_constraintBottom_toTopOf="@+id/swiperc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_new_medication" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
